@@ -5,4 +5,7 @@ public interface Phone {
 	
 	public void call(String number);
 	
+	default void poweroff() {
+		System.out.println("電源を切ります");
+	}
 }
