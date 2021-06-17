@@ -7,5 +7,17 @@ public class Chapter08_1 {
 			System.out.println(i * i);
 			i++;
 		}
+		System.out.println("------------------------");
+		int[] array = {2, 6, 7, 4};
+		for (i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+		System.out.println("------------------------");
+		for (int val: array) {
+			if (val % 2 == 0) {
+				continue;
+			}
+			System.out.println(val);
+		}
 	}
 }
