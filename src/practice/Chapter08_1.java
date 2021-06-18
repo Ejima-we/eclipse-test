@@ -19,5 +19,10 @@ public class Chapter08_1 {
 			}
 			System.out.println(val);
 		}
+		for (i = 1; i <= 50; i++) {
+			if (i % 15 == 0) {
+				System.out.println();
+			}
+		}
 	}
 }
